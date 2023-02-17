@@ -37,7 +37,6 @@
 * [ ] Si no se tiene instalado el lenguaje de programación, ir a la siguiente  página web e instalar el lenguaje, siguiendo los pasos recomendados 
   [python.org](https://www.python.org/)
 
+* [ ] Descargar el repositorio.
 
-*[ ] Descargar el repositorio.
-
-*[ ] Guardarla donde se necesite su aplicación.
+* [ ] Guardarla donde se necesite su aplicación.
