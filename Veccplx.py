@@ -203,57 +203,6 @@ def prodtens(A,B):
             resultado[j][k] = A[j // tamanofB, k // tamanocB] * B[j % tamanofB, k % tamanocB]
     return resultado
 
-A = np.array([
-    [-1j, 2j],
-    [3, -0]
-])
-
-B = np.array([
-    [3j, 0],
-    [1, 2]
-])
-
-D = np.array([
-    [1j, 0, 0],
-    [0, 1j, 0],
-    [0, 0, 1j]
-])
-
-E = np.array([
-    [2, 2 + 2j],
-    [1, 1 + 1j]
-])
-v = np.array([3, 3 + 2j])
-w = np.array([2 + 5j, 8])
-x = np.array([
-    [-1j],
-    [2],
-    [-3j]
-])
-y = np.array([
-    [3j],
-    [2j],
-    [1j]
-])
-
-F = np.array([
-    [2, -3],
-    [0, 1]
-])
-
-G = np.array([
-    [-2, 2],
-    [4, -1]
-])
-H = np.array([
-    [1, 0, 0],
-    [0, 1, 0],
-    [0, 0, 1]
-])
-
-c = 2
-
-print(unit(D))
 
 #print(adj(x))
 # if __name__ == '__main__':
